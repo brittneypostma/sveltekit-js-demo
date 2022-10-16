@@ -1,6 +1,3 @@
-[[build.environment]]
-NPM_FLAGS = "--version"
-
-[build]
- command="npx pnpm i --store=node_modules/.pnpm-store && npm run build"
- publish="build"
+[[edge_functions]]
+path = "/location"
+function = "location"
