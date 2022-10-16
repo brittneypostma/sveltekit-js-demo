@@ -1,5 +1,4 @@
 <script lang="ts">
-	import '@fontsource/figtree';
 	import '$lib/styles/global.css';
 
 	async function getEdgeData() {
