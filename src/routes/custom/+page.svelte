@@ -1,6 +1,4 @@
 <script lang="ts">
-	import '$lib/styles/global.css';
-
 	async function getEdgeData() {
 		const response = await fetch('/location');
 
