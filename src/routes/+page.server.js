@@ -1,7 +1,6 @@
-export async function load(event, context) {
-  console.log(event, context)
+export async function load(event) {
+  console.log(event)
   return {
-    event,
-    context
+    ip: event.getClientAddress()
   }
 }

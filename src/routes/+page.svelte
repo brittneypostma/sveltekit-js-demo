@@ -2,7 +2,7 @@
 	export let data;
 </script>
 
-{JSON.stringify(data)}
+{data.ip}
 <!-- <script>
 	import Counter from './Counter.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';
