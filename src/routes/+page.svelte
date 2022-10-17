@@ -1,8 +1,4 @@
-<script>
-	export let data;
-</script>
-
-{data.ip}
+Nothing
 <!-- <script>
 	import Counter from './Counter.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';

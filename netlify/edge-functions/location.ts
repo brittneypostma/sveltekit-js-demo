@@ -1,6 +1,6 @@
 import { Context } from 'https://edge.netlify.com';
 
-export default async (_request: Request, context: Context) => {
+export default (_request: Request, context: Context) => {
 	console.log('In edge function');
 
 	const {

@@ -1,4 +1,4 @@
-<!-- <script lang="ts">
+<script lang="ts">
 	async function getEdgeData() {
 		const response = await fetch('/location');
 
@@ -21,4 +21,4 @@
 			<p><strong>Location</strong>: {city}, {country}</p>
 		</section>
 	{/await}
-</main> -->
+</main>
