@@ -1,4 +1,9 @@
 <script>
+	export let data;
+</script>
+
+{JSON.stringify(data)}
+<!-- <script>
 	import Counter from './Counter.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
@@ -58,4 +63,4 @@
 		top: 0;
 		display: block;
 	}
-</style>
+</style> -->
